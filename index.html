@@ -1,0 +1,142 @@
+---
+layout: default
+---
+{% include hero.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-12"> <br>
+      <h3 class="lates-title">
+        <img class="logo__image" src="{{ site.baseurl }}/images/logo-rgp-coiffure-2.png" alt="rgp-coiffure-logo" style="display: inline-block;"> <br>
+        <button type="button" class="btn btn-outline-dark btn-xl" style="text-transform: uppercase;"><strong>Prendre rendez-vous</strong></button>
+      </h3>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h4>Haute Coiffure Mixte Les Chartrons Bordeaux</h4>
+      <p>
+        C’est Rémi qui est aux commandes de ce beau salon spacieux et lumineux. Pas d’esbrouffe ici, une belle décoration sobre et élégante qui saura parfaitement mettre en valeur la coupe et/ou la couleur réalisée par l’équipe de coiffeurs.<br>
+        Les points forts de RGP coiffure :<br>
+        * la coupe ! Car rappelons-le un bon coiffeur se démarque avant tout par sa capacité à créer une coupe de cheveux tenant parfaitement compte de vos envies, de la nature de vos cheveux, et de leur volume,<br>
+        * la coloration aux huiles essentielles, pour vous offrir une couleur qui respectera parfaitement vos cheveux,<br>
+        * ou encore le lissage brésilien.  Mais ce ne sont que quelques exemples de ce qui vous est proposé dans ce salon de haute-coiffure à Bordeaux.<br>
+        RGP coiffure dans le quartier des Chartrons est ouvert aussi bien aux hommes qu’aux femmes.<br>
+        La clientèle masculine y trouvera les mêmes sources de satisfaction que la clientèle féminine : des coupes nickel, des couleurs naturelles mais aussi -mode oblige- un excellent service de barbier.
+        <br>
+        Réservez votre rendez-vous aujourd'hui et laissez-nous vous chouchouter.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid parallax lazyload full-height" data-bg="{{ site.baseurl }}/images/Rgp-coiffure-bordeaux-chartrons.png">
+</div> <br>
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			{% if site.posts.size > 0 %}
+				<h4 class="lates-title">Notre Équipe</h4>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+	{% if site.posts.size > 0 %}
+		{% for post in paginator.posts %}
+			{% include article-content.html %}
+		{% endfor %}
+	{% endif %}
+	</div>
+</div>
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col col-12">
+      <img src="{{ site.baseurl }}/images/mur-pierre-plate-rgp-coiffure.png" alt="coiffure-haut-de-gamme">
+    </div>
+  </div>
+</div> -->
+<br> <br>
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <h4 class="lates-title mb-4">Contact</h4>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 mb-5">
+      Si vous souhaitez prendre rendez-vous et que vous ne savez pas quel service choisir ou que vous ne voyez pas ce que vous recherchez, veuillez nous appeler ou nous envoyer un e-mail pour toute question spéci au lieu de réserver en ligne. <br>
+    </div>
+  </div>
+  <div class="row justify-content-center mb-5">
+    <div class="col-12 col-md-3 order-1" align="center">
+      <h5 class="mb-1"><strong>Nous trouver</strong></h5>
+      <p>
+        84 Rue du Jardin Public <br>
+        33000 Bordeaux
+      </p><br>
+      <h5 class="mb-1"><strong>Addresse Email</strong></h5>
+      <p></p>
+      <h5 class="mb-1"><strong>Nous appeler</strong></h5>
+      <p>05 56 48 27 50</p>
+    </div>
+    <div class="col-12 col-md-3 mx-5 my-5 order-6" align="center">
+      <img class="logo__image" src="{{ site.baseurl }}/images/logo-rgp-coiffure-2.png" alt="rgp-coiffure-logo" style="display: inline-block;"> <br> <br>
+      <button type="button" class="btn btn-outline-dark  btn-lg" style="text-transform: uppercase;"><strong>Reservez</strong></button>
+    </div>
+    <div class="col-12 col-md-3 order-12" align="center">
+      <h5 class="mb-1"><strong>Heures d'ouverture</strong></h5>
+      <ul style="list-style: none;">
+        <li><strong>LUN</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FERMÉ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><strong>MAR</strong>  09:00 - 18:00</li>
+        <li><strong>MER</strong>  09:00 - 18:00</li>
+        <li><strong>JEU</strong>  09:00 - 18:00</li>
+        <li><strong>VEN</strong>  09:00 - 18:00</li>
+        <li><strong>SAM</strong>  09:00 - 18:00</li>
+        <li><strong>DIM</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FERMÉ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <h4 class="lates-title mb-3">SUIVEZ-NOUS SUR FACEBOOK & INSTAGRAM</h4>
+      <ul class="social-list" style="list-style: none;text-align: center; font-size: 50px;">
+        <li>
+          <a href="#">
+            <i class="fab fa-instagram-square" style="color: #e4405f;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-facebook-square" style="color: #3b5998;"></i>
+          </a>
+        </li>
+      </ul>
+      <p>Nous sommes situé dans le quartier des Chartrons à Bordeaux et nous vous
+      proposons une vision très haut de gamme des soins capillaires.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row sqs-row">
+    <div class="col-12 col-md-6 span-6 mb-3">
+      <div class="map-responsive" style="overflow:hidden;padding-bottom:56.25%;position:relative;height:100%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.418599753566!2d-0.5767201847390483!3d44.85377238198709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552877334a2deb%3A0xa9fcc5dafe32bc4!2s84%20Rue%20du%20Jardin%20public%2C%2033000%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1613228568754!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;left:0;top:0;height:100%;width:100%;position:absolute;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 span-6">
+      {% include carousel.html height="50" unit="%" duration="7" %}
+    </div>
+  </div>
+</div>

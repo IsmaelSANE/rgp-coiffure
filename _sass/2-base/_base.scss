@@ -1,0 +1,218 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  input, textarea {
+		border: 1px solid $border-color;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: #e02f40;
+		}
+		&:required:valid {
+			border-color: #34a74e;
+		}
+	}
+}
+
+::placeholder {
+	color: #666;
+}
+
+*::selection {
+  color: $white;
+  background-color: $dark;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  line-height: initial;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: $font-size-h1;
+}
+
+h2 {
+  font-size: $font-size-h2;
+}
+
+h3 {
+  font-size: $font-size-h3;
+}
+
+h4 {
+  font-family: "runy_tunes_revisited_nfRg";
+  font-size: 50px;
+  // text-shadow: 2px 2px 4px #000000;
+}
+
+h5 {
+  font-size: $font-size-h5;
+}
+
+h6 {
+  font-size: $font-size-h6;
+}
+
+blockquote {
+  margin: 30px -100px;
+  font-size: 28px;
+  line-height: 45px;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  text-align: center;
+
+  @media only screen and (max-width: $tablet) {
+    margin: 30px 0;
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+
+pre {
+  overflow: auto;
+  padding: 15px;
+  margin-bottom: 0;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+img,
+.zoom-img-wrap {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  &+em {
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: $gray;
+  }
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    transition: $global-transition;
+    &:hover {
+      color: darken($link-color, 10%);
+    }
+    &:active {
+      color: darken($link-color, 20%);
+    }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  margin: 40px 0;
+  border: 0;
+  background: $light-gray;
+}
+
+.btn-xl {
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 25%;    //Specify your width here
+}
+.social-link {
+  list-style: none;
+}
+.social-list li {
+  display: inline;
+}
+
+//parallax
+/* **********
+  PARALLAX
+Styles for parallax section.  Background
+is set in the HTML markup using Lazyload
+************************************************* */
+.parallax {
+  background-attachment: fixed;
+  background-position-y: -0.2;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+   display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/* **********
+LAZY LOADING TRANSITION
+************************************************* */
+.lazyload, .lazyloading {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+/* **********
+Set height of parallax to whatever.
+************************************************* */
+.full-height {height:100vh;}
+
+
+
+/* **********
+Demo stuff
+************************************************* */
+// body {color:white;background:black}
+// section {height:100vh}
+// h1 {text-transform:uppercase;font-size:5vw;text-align:center;}
+
+/* **********
+Centering things
+************************************************* */
+
+.grid-center {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  z-index: 100;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  // position: fixed;
+  // right: 0;
+  // bottom: 0;
+  min-width: 100%;
+  // max-height: 90%;
+}
+
+/* Add some content at the bottom of the video/page */
+// .content {
+//   position: fixed;
+//   bottom: 0;
+//   background: rgba(0, 0, 0, 0.5);
+//   color: #f1f1f1;
+//   width: 100%;
+//   padding: 20px;
+// }
+
+
+
