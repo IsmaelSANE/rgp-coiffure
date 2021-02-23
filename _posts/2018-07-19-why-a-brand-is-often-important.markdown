@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  loukas
+title:  Loukas
 date:   2018-07-19 15:01:35 +0300
 image:  loukas-rgp-coiffure.png
 tags:   Apprenti
