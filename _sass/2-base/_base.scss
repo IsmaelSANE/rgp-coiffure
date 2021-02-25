@@ -133,6 +133,16 @@ hr {
     border-radius: 5px;
     width: 25%;    //Specify your width here
 }
+
+@media (max-width: 760px) {
+  .btn-xl {
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 80%;
+  }
+}
+
 .social-link {
   list-style: none;
 }
@@ -198,13 +208,7 @@ Centering things
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
   width: 100%;
-  // height: 200px;
   overflow: hidden;
-  // position: fixed;
-  // right: 0;
-  // bottom: 0;
-  // min-width: 100%;
-  // max-height: 90%;
 }
 
 #myVideo source {
@@ -212,18 +216,6 @@ Centering things
   height: auto;
   display: block;
 }
-// @media only screen and (min-width: 768px) {
-//   min-width: 100%;
-// }
-/* Add some content at the bottom of the video/page */
-// .content {
-//   position: fixed;
-//   bottom: 0;
-//   background: rgba(0, 0, 0, 0.5);
-//   color: #f1f1f1;
-//   width: 100%;
-//   padding: 20px;
-// }
 
 
 
