@@ -197,13 +197,24 @@ Centering things
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
+  width: 100%;
+  // height: 200px;
+  overflow: hidden;
   // position: fixed;
   // right: 0;
   // bottom: 0;
-  min-width: 100%;
+  // min-width: 100%;
   // max-height: 90%;
 }
 
+#myVideo source {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+// @media only screen and (min-width: 768px) {
+//   min-width: 100%;
+// }
 /* Add some content at the bottom of the video/page */
 // .content {
 //   position: fixed;
