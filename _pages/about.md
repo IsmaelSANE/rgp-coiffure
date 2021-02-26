@@ -53,3 +53,13 @@ permalink: /gallery-photos/
       <img src="{{ site.baseurl }}/images/gallery/gallery-6.png" alt="pic">
    </figure>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12"> <br>
+      <h3 class="lates-title">
+        <button type="button" class="btn btn-dark btn-xl" style="text-transform: uppercase;"><strong>Prendre rendez-vous</strong></button>
+      </h3>
+    </div>
+  </div>
+</div>
