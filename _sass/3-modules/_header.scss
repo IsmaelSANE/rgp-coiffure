@@ -30,6 +30,10 @@
   left: 45%;
   transform: translateY(-50%);
 
+  @media (max-width: 760px) {
+    left: 35%;
+  }
+
   .logo__link {
     font-size: 30px;
     font-weight: 700;
