@@ -6,9 +6,8 @@ image:  remi-rgp-coiffure.png
 tags:   Gérant
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Doté d’un certain sens artistique Remi est très attaché au concept de qualité.
+Son travail a d’ailleurs été récompensé par le premier prix au Championnat de GUYENNE en 2018.
+Il est également lauréat aux Championnats de France en 2017.
+Très investi dans son métier il est secrétaire d’un groupement artistique et vice-président de ce même groupement à l’échelle nationale.

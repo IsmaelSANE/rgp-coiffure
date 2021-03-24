@@ -57,8 +57,8 @@ permalink: /gallery-photos/
 <div class="container">
   <div class="row">
     <div class="col-12"> <br>
-      <h3 class="lates-title">
-        <button type="button" class="btn btn-dark btn-xl" style="text-transform: uppercase;"><strong>Prendre rendez-vous</strong></button>
+      <h3 class="lates-title"> <a href="https://www.planity.com/rgp-coiffure-33000-bordeaux">
+        <button type="button" class="btn btn-dark btn-xl" style="text-transform: uppercase;"><strong>Prendre rendez-vous</strong></button></a>
       </h3>
     </div>
   </div>
