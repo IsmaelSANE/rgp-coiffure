@@ -1,8 +1,9 @@
 #baseurl: "/zolan" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/rgp-coiffure" # the subpath of your site, e.g. /blog
-url: "https://ismaelsane.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+#baseurl: "/rgp-coiffure" # the subpath of your site, e.g. /blog
+#url: "https://ismaelsane.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+root: /
+url: "https://www.rgp-coiffure-bordeaux-chartrons.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
